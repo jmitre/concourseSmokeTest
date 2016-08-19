@@ -6,7 +6,7 @@ image_resource:
   source: {repository: busybox}
 
 inputs:
-- name: pipeline
+- name: resource-smoke-test
 
 run:
-  path: ./pipeline/run.sh
+  path: ./run.sh
