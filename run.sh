@@ -1,3 +1,4 @@
 #!/bin/sh
 
-mocha resource-smoke-test/smoke_test.js
+cd resource-smoke-test
+mocha smoke_test.js
