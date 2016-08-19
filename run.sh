@@ -1,3 +1,3 @@
 #!/bin/sh
 
-echo youSuck
+mocha resource-smoke-test/smoke_test.js
