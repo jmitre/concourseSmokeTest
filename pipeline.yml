@@ -12,5 +12,3 @@ jobs:
   - get: resource-smoke-test
   - task: concourse-smoke-test
     file: resource-smoke-test/task.yml
-  - task: run ll
-    file: resource-smoke-test/runll_task.yml

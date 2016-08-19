@@ -9,5 +9,4 @@ inputs:
 - name: resource-smoke-test
 
 run:
-  path: cd
-  args: [resource-smoke-test]
+  path: ./resource-smoke-test/run.sh
