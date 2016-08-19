@@ -1,4 +1,4 @@
-var request = require('supertest')('localhost:9500/');
+var request = require('supertest')('10.244.68.3:8500/');
 var expect = require('chai').expect
 
 
