@@ -1,5 +1,3 @@
-# npm i
-# ls
-# mocha smoke_test.js
+#!/bin/sh
 
 echo youSuck
