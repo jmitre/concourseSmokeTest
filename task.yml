@@ -9,4 +9,4 @@ inputs:
 - name: resource-smoke-test
 
 run:
-  path: ls
+  path: ./resource-smoke-test/run.sh
