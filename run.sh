@@ -2,11 +2,12 @@
 
 cd resource-smoke-test
 
-echo updating apt-get
-sudo apt-get update
-
-echo Intalling NPM
-sudo apt-get install npm
+# echo updating apt-get
+# sudo apt-get update
+#
+# echo Intalling NPM
+# sudo apt-get install npm
+# y
 
 echo npm install
 npm install

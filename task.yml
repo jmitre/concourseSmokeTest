@@ -3,7 +3,7 @@ platform: linux
 
 image_resource:
   type: docker-image
-  source: {repository: ubuntu, tag: "14.04"}
+  source: {repository: node, tag: "6" }
 
 inputs:
 - name: resource-smoke-test
