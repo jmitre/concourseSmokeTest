@@ -12,5 +12,8 @@ cd resource-smoke-test
 echo npm install
 npm install
 
-echo running test
+echo npm install -g mocha
+npm install -g mocha
+
+echo mocha smoke_test.js
 mocha smoke_test.js
