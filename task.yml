@@ -9,8 +9,11 @@ inputs:
 - name: resource-smoke-test
 
 run:
-  path: chmod
-  args: [+x /resource-smoke-test/run.sh]
+  path: cd
+  args: [resource-smoke-test]
 
 run:
-  path: ./resource-smoke-test/run.sh
+  path: ll
+
+run:
+  path: ./run.sh
