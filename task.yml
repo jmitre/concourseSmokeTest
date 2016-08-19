@@ -9,4 +9,5 @@ inputs:
 - name: resource-smoke-test
 
 run:
-  path: ./resource-smoke-test/run.sh
+  path: bash
+  args: [./resource-smoke-test/run.sh]
